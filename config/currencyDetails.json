@@ -1,4 +1,9 @@
 {
-  "currencyName": "Grain",
-  "currencySuffix": " g"
+  "currencyName": "FND",
+  "currencySuffix": "F",
+  "integrationCurrency": {
+    "type": "EVM",
+    "chainId": "4",
+    "tokenAddress": "0x19feea6744a4bcbc50ac86ed419e2911a0df5a0c"
+  }
 }
