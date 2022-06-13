@@ -1,12 +1,11 @@
 {
   "allocationPolicies": [
     {
-      "budget": "10",
+      "budget": "5",
       "policyType": "BALANCED",
       "numIntervalsLookback": 4
     }
   ],
   "maxSimultaneousDistributions": 4,
-  "integration": { "type": "csv", "config": { "gnosis": true } },
-  "accountingEnabled": false
+  "integration": { "type": "csv", "config": { "gnosis": true } }
 }
