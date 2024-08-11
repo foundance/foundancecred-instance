@@ -13,7 +13,7 @@ every 24 hours, as well as any time you change the configuration.
 SourceCred is organized around "instances". Every instance must have a
 `sourcecred.json` file at root, which specifies which plugins are active in the
 instance. Config and permanent data (e.g. the Ledger) are stored in the main branch.
-All output or site data gets stored in the `gh-pages` branch by the Github Action.
+All output or site data gets stored in the `gh-pages` branch by the GitHub Action.
 
 Configuration files:
 
@@ -38,7 +38,7 @@ Generated Data:
 Using this instance as a starting point, you can update the config to include
 the plugins you want, pointing at the data you care about. We recommend setting up
 your instance locally first and make sure its working before pushing your changes
-to main and using the Github Action.
+to main and using the GitHub Action.
 
 **Setting up a SourceCred Instance requires basic knowledge of:**
 - using a terminal
@@ -47,7 +47,7 @@ to main and using the Github Action.
 
 ## Step 1: Do Initial Setup
 
-1. Hit the big green "Use this template" button on github. (do not fork)
+1. Hit the big green "Use this template" button on GitHub. (do not fork)
 
 1. Use a **git** client to clone your new repo locally.
 
